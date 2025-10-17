@@ -24,11 +24,12 @@ public class OrderRepository {
         orderMap.put(order.getId(),order);
     }
 
-    /*
     public void savePartner(String partnerId){
         // your code here
         // create a new partner with given partnerId and save it
+        partnerMap.put(partnerId,new DeliveryPartner(partnerId));
     }
+    /*
 
     public void saveOrderPartnerMap(String orderId, String partnerId){
         if(orderMap.containsKey(orderId) && partnerMap.containsKey(partnerId)){
