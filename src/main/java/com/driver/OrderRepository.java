@@ -21,8 +21,10 @@ public class OrderRepository {
 
     public void saveOrder(Order order){
         // your code here
+        orderMap.put(order.getId(),order);
     }
 
+    /*
     public void savePartner(String partnerId){
         // your code here
         // create a new partner with given partnerId and save it
@@ -80,4 +82,6 @@ public class OrderRepository {
         // your code here
         // code should return string in format HH:MM
     }
+
+     */
 }

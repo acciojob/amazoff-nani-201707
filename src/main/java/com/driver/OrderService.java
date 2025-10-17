@@ -15,6 +15,7 @@ public class OrderService {
         orderRepository.saveOrder(order);
     }
 
+    /*
     public void addPartner(String partnerId){
         orderRepository.savePartner(partnerId);
     }
@@ -62,4 +63,6 @@ public class OrderService {
     public String getLastDeliveryTimeByPartnerId(String partnerId){
         return orderRepository.findLastDeliveryTimeByPartnerId(partnerId);
     }
+
+     */
 }
